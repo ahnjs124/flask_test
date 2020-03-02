@@ -4,6 +4,8 @@ from vsearch import search4letters
 # Flask 인스턴스 생성
 app = Flask(__name__)
 
+print("test")
+
 # 웹표현: route()
 @app.route('/search4', methods=['POST'])
 def do_search() -> str:
